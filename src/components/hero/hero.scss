@@ -7,7 +7,7 @@
   position: relative;
 
   .wrapper {
-    max-width: 1366px;
+    max-width: 1024px;
     height: 100%;
     margin: auto;
 
@@ -17,7 +17,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 40px;
+      gap: 20px;
 
       @include mobile {
         height: 50%;
@@ -34,7 +34,7 @@
       }
 
       h1 {
-        font-size: 88px;
+        font-size: 66px;
 
         @include mobile {
           font-size: 36px;
@@ -86,7 +86,7 @@
     bottom: -120px;
     white-space: nowrap;
     color: #ffffff09;
-    width: 50%;
+    width: 70%;
     font-weight: bold;
   }
 }

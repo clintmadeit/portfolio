@@ -4,7 +4,7 @@
   height: 100px;
 
   .wrapper {
-    max-width: 1366px;
+    max-width: 1024px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -16,8 +16,8 @@
       padding: 20px;
     }
 
-    span {
-      font-weight: bold;
+    .logo {
+      width: 80px;
 
       @include mobile {
         display: none;
