@@ -9,11 +9,11 @@ const Sidebar = () => {
 
   const variants = {
     open: {
-      clickPath: "circle(1200px at 50px 50px)",
+      clipPath: "circle(1200px at 50px 50px)",
       transition: { type: "spring", stiffness: 20, restDelta: 2 },
     },
     closed: {
-      clickPath: "circle(30px at 50px 50px)",
+      clipPath: "circle(30px at 50px 50px)",
       transition: { delay: 0.5, type: "spring", stiffness: 400, damping: 40 },
     },
   };
