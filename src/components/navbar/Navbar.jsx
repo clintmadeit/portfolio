@@ -19,16 +19,16 @@ export default function Navbar() {
           </a>
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a href="https://www.facebook.com/clint.devs" target="blank">
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/clintmadeit" target="blank">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="https://github.com/clintmadeit">
+          <a href="https://github.com/clintmadeit" target="blank">
             <img src="/github.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.youtube.com/@clintmadeit" target="blank">
             <img src="/youtube.png" alt="" />
           </a>
         </div>
