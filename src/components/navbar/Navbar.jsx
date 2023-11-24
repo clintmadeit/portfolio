@@ -1,7 +1,6 @@
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
-import { FaGithubSquare } from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -22,8 +21,11 @@ export default function Navbar() {
           <a href="https://www.facebook.com/clint.devs" target="blank">
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="https://www.instagram.com/clintmadeit" target="blank">
-            <img src="/instagram.png" alt="" />
+          <a
+            href="https://www.linkedin.com/in/johnclinton-luseno-737531164/"
+            target="blank"
+          >
+            <img src="/linkedin.png" alt="" />
           </a>
           <a href="https://github.com/clintmadeit" target="blank">
             <img src="/github.png" alt="" />
