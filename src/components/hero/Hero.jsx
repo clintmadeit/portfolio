@@ -52,10 +52,12 @@ const Hero = () => {
             Frontend developer and UI designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            <motion.button id="services" variants={textVariants}>
               See my Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button id="contact" variants={textVariants}>
+              Contact Me
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
